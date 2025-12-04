@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git Commands</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <nav>
+    <a href="index.html" class="logo">GitLearning</a>
+
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="git.html">Git Commands</a>
+      <a href="github.html">GitHub Guide</a>
+      <a href="deploy.html">Deploy Website</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="section-title">Git Commands</h1>
+
+    <div class="grid">
+      <div class="card">
+        <h2>1. Git Clone</h2>
+        <p>Download a repository from GitHub to your local machine.</p>
+        <pre>git clone &lt;repo-url&gt;</pre>
+      </div>
+
+      <div class="card">
+        <h2>2. Git Init</h2>
+        <p>Initialize a new Git repository in your current directory.</p>
+        <pre>git init</pre>
+      </div>
+
+      <div class="card">
+        <h2>3. Git Add</h2>
+        <p>Stage changes for the next commit.</p>
+        <pre>git add .</pre>
+      </div>
+
+      <div class="card">
+        <h2>4. Git Commit</h2>
+        <p>Save your staged changes to the repository history.</p>
+        <pre>git commit -m "message"</pre>
+      </div>
+
+      <div class="card">
+        <h2>5. Git Push</h2>
+        <p>Upload your local commits to the remote repository.</p>
+        <pre>git push origin main</pre>
+      </div>
+
+      <div class="card">
+        <h2>6. Git Pull</h2>
+        <p>Fetch and merge changes from the remote repository.</p>
+        <pre>git pull origin main</pre>
+      </div>
+
+      <div class="card">
+        <h2>7. Git Fetch</h2>
+        <p>Download changes from the remote but do not merge them.</p>
+        <pre>git fetch origin</pre>
+      </div>
+
+      <div class="card">
+        <h2>8. Git Branch</h2>
+        <p>Create a new branch for development.</p>
+        <pre>git branch new-branch</pre>
+      </div>
+
+      <div class="card">
+        <h2>9. Git Merge</h2>
+        <p>Merge a branch into the current branch.</p>
+        <pre>git merge new-branch</pre>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 GitLearning. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

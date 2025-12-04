@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deploy Website — GitHub Pages</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <nav>
+    <a href="index.html" class="logo">GitLearning</a>
+
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="git.html">Git Commands</a>
+      <a href="github.html">GitHub Guide</a>
+      <a href="deploy.html">Deploy Website</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="section-title">Deploy Static Website for FREE</h1>
+
+    <div class="grid">
+      <div class="card">
+        <h2>1. Create GitHub Repo</h2>
+        <p>Create a new repository on GitHub to host your website files.</p>
+      </div>
+
+      <div class="card">
+        <h2>2. Push Your Website</h2>
+        <p>Upload your HTML, CSS, and JS files to the repository.</p>
+        <pre>
+git init
+git add .
+git commit -m "first commit"
+git remote add origin &lt;repo-url&gt;
+git push -u origin main
+    </pre>
+      </div>
+
+      <div class="card">
+        <h2>3. Enable GitHub Pages</h2>
+        <p>Go to: Settings → Pages → Deploy from branch → select main → save</p>
+      </div>
+
+      <div class="card">
+        <h2>Your Website is Live 🎉</h2>
+        <p>You’ll get a link like:<br />https://username.github.io/repo-name</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 GitLearning. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

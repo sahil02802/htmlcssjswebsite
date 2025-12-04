@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Guide</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <nav>
+    <a href="index.html" class="logo">GitLearning</a>
+
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="git.html">Git Commands</a>
+      <a href="github.html">GitHub Guide</a>
+      <a href="deploy.html">Deploy Website</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="section-title">GitHub Complete Guide</h1>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Create a Repository</h2>
+        <p>Start a new project by creating a repository.</p>
+        <pre>Click New Repository → Name → Create Repo</pre>
+      </div>
+
+      <div class="card">
+        <h2>Push Code to GitHub</h2>
+        <p>Upload your local project to GitHub.</p>
+        <pre>
+git remote add origin &lt;repo-url&gt;
+git push -u origin main
+    </pre>
+      </div>
+
+      <div class="card">
+        <h2>Create Pull Request</h2>
+        <p>Used to merge changes from your branch into main.</p>
+      </div>
+
+      <div class="card">
+        <h2>Forking a Repo</h2>
+        <p>Make your own copy of someone else's project.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 GitLearning. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
